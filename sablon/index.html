@@ -5,31 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
     <link rel="stylesheet" href="./style.css" />
-    <link
+    <!-- <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  /> -->
+ 
+  
 
 
   </head>
   <body>
     <div class="container" id="container">
       <!-- Header -->
-      <form action="">
-        <h1 class="animate__animated animate__backInDown">LOGIN</h1>
-        <div class="user">
-          <input type="mail" class="email" id="email" required="" name=""/>
+      
+        <h1>LOGIN</h1>
+        <div class="user" >
+          <input type="text" class="name" id="name"  required="" />
           <label for="">Username</label>
         </div>
         <div class="user">
-          <input type="password" class="password" id="password" required="" name=""/>
+          <input type="" class="password" id="password" required="" />
           <label for="">Password</label>
         </div>
-        <button> <span>Button</span>
+        
+        <button id="button" onclick="updateLogin()"> <span>Button</span>
         </button>
-      </form>
+        
+        
+        <p id="sonuc"></p>
+      
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
+    <script src="./script.js"></script>
   </body>
 </html>
