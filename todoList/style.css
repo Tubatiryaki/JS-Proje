@@ -1,0 +1,27 @@
+
+.container{
+    display: block;
+    text-align: center;
+    justify-content: center;
+
+}
+.container main button{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    padding: 2rem;
+    font-size: large;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    
+    
+
+    
+
+}
+.container header h2{
+    text-align: center ;
+    color: blueviolet;
+}
