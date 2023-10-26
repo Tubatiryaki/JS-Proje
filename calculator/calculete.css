@@ -1,52 +1,50 @@
-.container{
-    width: 50%;
-    background-color: rgb(185, 185, 185);
-    box-shadow: 5px 5px 5px ;
-    border: 1rem solid rgb(189, 221, 116);
-    justify-content: center;
+.container {
+  width: 50%;
+  background-color: rgb(185, 185, 185);
+  box-shadow: 5px 5px 5px;
+  border: 1rem solid rgb(90, 124, 10);
+  justify-content: center;
 }
-h1{
-    text-align: center;
-    font-weight: 700;
-    font-size: 100%;
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 100%;
 }
-.calculate{
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    
+.calculate {
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
-.container .calculate .scren{
-    display: flex;
-    width: 100%;
-    height: 50px;
-    text-align: end;
-    align-items: center;
-   justify-content: end;
-   
-    background-color: rgb(207, 204, 204);
+.container .calculate .scren {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  text-align: end;
+  align-items: center;
+  justify-content: end;
+
+  background-color: rgb(207, 204, 204);
 }
-.container .calculate .scren{
- 
- font-size: 25px;
- box-shadow: 1px 1px 10px 1px;
- background-color: white;
+.container .calculate .scren {
+  font-size: 25px;
+  box-shadow: 1px 1px 10px 1px;
+  background-color: white;
 }
-.number{
-    width: 100%;
+.number {
+  width: 100%;
+  border: none;
 }
-.number table{
-    width: 100%;
-    height: auto;
+.number table {
+  width: 100%;
+  height: auto;
 }
-button{
-    width: 100%;
-    height: 50%;
-    padding: 1rem;
-    font-size: 16px;
-    font-weight: bold;
+button {
+  width: 100%;
+  height: 50%;
+  padding: 1rem;
+  font-size: 16px;
+  font-weight: bold;
 }
-button:hover{
-    background-color:rgb(189, 221, 116);
-    border: none;
+button:hover {
+  background-color: rgb(189, 221, 116);
 }

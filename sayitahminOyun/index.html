@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Function Practise</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card mx-5 my-5">
+      <div class="card-body my-5">
+        <div class="game d-flex gap-2 my-5">
+          <input
+            type="number"
+            id="txtNum"
+            class="form-control d-inline"
+            disabled
+          />
+          <!-- disabled:Disabled özelliği boolean türünde bir özelliktir. Bu özellik tanımlandıysa, düğme devre dışı bırakılır. Düğmeye disabled özelliği tanımlanmış ise, kullanılamaz ve tıklanamaz. Disabled özelliği bir formda gerekli yerlerin doldurulması veya seçilmesinden sonra, JavaScript ile kullanılabilir duruma getirilebilir. -->
+          <button
+            class="btn btn-success d-none"
+            id="btnGuess"
+            onclick="guess()"
+          >
+            Guess
+          </button>
+          <!-- display:none; denildiğinde bir öğe tüm içeriği ile gizlenecek ve yok sayılacaktır. -->
+          <button class="btn btn-danger" id="btnStart" onclick="start()">
+            Start the game
+          </button>
+        </div>
+      </div>
+      <label
+        id="txtResult"
+        class="text-warning fs-1 bold mx-5 my-5 p-4 bg-light"
+      ></label>
+    </div>
+    <div></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
