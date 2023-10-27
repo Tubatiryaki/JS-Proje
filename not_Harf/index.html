@@ -42,7 +42,7 @@
         />
       </div>
       <div class="d-grid gap-2">
-        <button class="btn btn-success m-3">Count</button>
+        <button class="btn btn-success m-3" id="count">Count</button>
       </div>
     </div>
     <div
@@ -52,20 +52,9 @@
     >
       <div class="mb-3 m-3">
         <label for="result" class="form-label">Notunuzun Harf Karşılığı</label>
-        <p class="result text-warning" id="result"></p>
+        <p class="result text-light fs-3 fs-bold" id="result"></p>
       </div>
     </div>
-    <script>
-      const numElVise = document.querySelector("#numVise");
-      const numElFinal = document.querySelector("#numFinal");
-
-      document.querySelector("button").addEventListener("click", () => {
-        const num1 = Number(numElVise.value) * 0.4;
-        const num2 = Number(numElFinal.value) * 0.6;
-        const total = num1 + num2;
-
-        console.log(total);
-      });
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
