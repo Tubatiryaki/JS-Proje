@@ -18,7 +18,7 @@ count.addEventListener("click", () => {
 });
 
 const isNumValid = (num) => {
-  return (num || num === 0) && !isNaN(num) && num <= 100 && num >= 0;
+  return num && !isNaN(num) && num <= 100 && num >= 0;
 };
 const getAverage = (num1, num2) => {
   return Number(num1) + Number(num2);
